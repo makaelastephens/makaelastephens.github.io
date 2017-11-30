@@ -1,8 +1,88 @@
-<h1>ACCESS NYC</h1>
-<p>ACCESS Front Door is the one-stop-shop to learning about government benefits and programs in New York City.</p>
-
-<p><ul>It’s a fully responsive website that:
-
+<!doctype html>
+<html>
+<head>
+<meta charset='UTF-8'><meta name='viewport' content='width=device-width initial-scale=1'>
+<title>accessnyc.md</title></head>
+<body><h1>ACCESS NYC</h1>
+<p>ACCESS NYC is the one-stop-shop to learning about government benefits and programs in New York City.</p>
+<p></p>
+<p>It&#39;s a fully resposive website that:</p>
+<ul>
 <li>Explains 30+ government benefits/programs in a way anyone can understand.</li>
 <li>Tells you what programs are right for you based on a quick eligibility screener.</li>
-<li>Outlines the application process, including what documents you’ll need and where to get help with your application.</li></ul></p>
+<li>Outlines the application process, including what documents you’ll need and where to get help with your application.</li>
+
+</ul>
+<p>Visit the site: <a href=''>access.nyc.gov</a></p>
+<hr />
+
+<h2>The problem</h2>
+    <p>Too many eligible New Yorkers are missing out on government resources because they don’t know what they’re entitled to, don’t understand the application process, and fear the stigma of getting government support.</p>
+<p></p>
+<h4>How can the city use technology to ease these barriers?</h4>
+<p></p>
+<h2>Research</h2>
+    <p>When I joined the project, an initial prototype had already been built. Using the prototype, we conducted <strong>user interviews</strong> with <em>benefit seekers</em> and <em>professional navigators</em> (social workers, case managers, library staff) to understand the problems clients faced as they learned about and applied for benefits.</p>
+    <p>To get as well-rounded a view as possible, we talked with users from many backgrounds: staff at senior centers, public libraries, the Arab American Association of NY, and benefit seekers who are English Language Learners, teens, and seniors. We also presented initial prototypes to the civic tech community for feedback.</p>
+<p></p>
+<h2>What we found</h2>
+    <ul>
+        <li>Benefit seekers always prefer <strong>in-person help</strong>. They want a human connection.</li>
+        <li>Many benefit seekers don’t understand the system. They have <strong>false conceptions</strong> about who is and isn’t eligible for benefits.</li>
+        <li>Potential benefit seekers are only trying to solve <strong>one problem at a time</strong>. Even if they’re eligible for other programs, if they came for help with their rent, that’s their focus.</li>
+        <li>Many benefit seekers do a <strong>cost-benefit analysis</strong>. Usually, they think it takes too much time and energy to apply for government assistance.</li>
+        <li>Nobody understands government language.</li>
+        <li>Benefit seekers have <strong>little trust in the government</strong>.</li>
+    </ul>
+    <p>We worked in an agile environment with 2 week sprints, and throughout the summer, these takeaways came up again and again as we iterated on the prototype.</p>
+<p></p>
+<h2>Design Guidelines</h2>
+    <p>Based on our user research, we used a set of design guidelines to inform our prototype.</p>
+    <ul>
+        <li><p><strong>Just as the government needs to serve everyone, so does its technology</strong>. This means older New Yorkers and those who are less tech-literate should still be able to use the website. It also means the website needs to be mobile-first, as many benefit seekers rely on smartphones.</p></li>
+        <li><p><strong>Government talk needs its own translator</strong>. We aimed for a fifth grade reading level to make sure there were no literacy barriers for this information.</p></li>
+        <li><p><strong>Make users feel in control by giving them all the information they need</strong>. For each benefit, clearly outline what’s required of them, including documents. Let them choose how they want to apply and make sure help is easy to find.</p></li>
+        <li><p><strong>Push screening to make sure nobody is left behind</strong>. Encouraging benefit seekers to screen ensures that even if they come in to learn about food stamps, they’ll learn about any programs they’re eligible for. The screening process should be simple to prevent user fallout.</p></li>
+    </ul>
+<p></p>
+<h2>Solution 1: Simple Screening</h2>
+    <p>In the current ACCESS NYC site, eligibility screening is a 2-step process, where users enter a range of info, from household composition to income to housing status. However, analysis showed that <strong>many users were leaving optional fields blank and not finishing both parts of the screening</strong>. Furthermore, once a client finished the screening and got a list of programs and benefits they might be eligible for, <strong>they didn&#39;t feel confident in applying</strong>.</p>
+    <p>Features include:</p>
+    <ul>
+        <li><strong>Limited number of questions</strong> to make screening quick and undemanding.</li>
+        <li><strong>Senior-friendly UI patterns</strong> so that even the least tech-savvy can fly through screening in mere minutes.</li>
+        <li>A <strong>personalized results page</strong> that clients can text or email to themselves.</li>
+
+        </ul>
+<p></p>
+<h2>Solution 2: Understanding Programs</h2>
+    <p>AFD provides program pages that give more information about each type of assistance. We prototyped the content of these pages to make sure users understood the information. As the project developed, we saw the program pages as a way to <strong>prepare a client to apply</strong>, whether in person or online. The intention is to <strong>feel guided throughout the entire process</strong>, and <strong>make users feel confident</strong> that they have what they need and know who to contact for help.</p>
+    <p>Features include:</p>
+    <ul>
+        <li>A <strong>&quot;Head&#39;s Up&quot; section</strong> I designed, based on users wanting to immediately know things like if citizenship or an interview is required.</li>
+        <li><strong>Plain language descriptions</strong> of the assistance.</li>
+        <li><strong>What documents need to be submitted.</strong></li>
+        <li><strong>Different ways to apply.</strong></li>
+    </ul>
+<p></p>
+<h2>Solution 3: The Document Tool</h2>
+    <p>One of the biggest reasons New Yorkers are denied public benefits is because of a failure to submit documents. Often, <strong>clients don&#39;t know what documents they need to submit</strong>, or they never receive a letter from the city agency requesting documents. We saw an opportunity with AFD to create a solution to this problem, while also furthering our intention of creating a seamless experience from screening to applying.</p>
+    <p>Features include:</p>
+    <ul>
+        <li><strong>Generating a list of what documents a client will need</strong> based off a few questions.</li>
+        <li><strong>A personalized checklist</strong> based off what documents the client has on hand from this list.</li>
+    </ul>
+<p></p>
+<h2>Solution 4: Find Help Near You</h2>
+    <p>To meet the design guideline of giving users control, we wanted it to always be easy to find help. During testing, <strong>users always wanted access to in-person help</strong>. They also wanted help with other things, like where the closest food pantry was or where to go to get help filing taxes. I designed an MVP and dream features of a map tool that would help clients find help based on their needs.</p>
+    <p>Features include:</p>
+<ul>
+    <li>The ability to <strong>specify what kind of help you need</strong>. ( (MVP)</li>
+    <li><strong>Filter results</strong> by mileage, language spoken, accessibility, and if an appointment is required. (MVP)</li>
+    <li>Easily toggle between Map View or List View. (MVP)</li>
+    <li><strong>Choose what kind of site</strong>, be it a non-profit, a government center, or a community service such as a food pantry (Dream feature).</li>
+    <li><strong>Narrow the kind of help</strong> to the exact problem, like &quot;I need help paying for food&quot; vs &quot;I need groceries right now&quot;. (Dream feature).</li>
+
+</ul>
+</body>
+</html>
